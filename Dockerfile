@@ -55,5 +55,5 @@ RUN ../configure
 RUN cmake --build . --parallel
 #WORKDIR /workspace/qt-everywhere-src-6.6.1
 #RUN tar -czvf qt_build.tar.gz build
-#RUN cmake --install . --prefix /usr/local/qt6
+RUN cmake --install . --prefix /Qt6.6.1
 
